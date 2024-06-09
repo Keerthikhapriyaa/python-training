@@ -1,0 +1,13 @@
+a=int(input())
+l=[]
+c=0
+print("Enter array size:",n)
+print("{n}")
+for i in range(i+1,n):
+    if l[i]==l[j]:
+        print(l[j])
+        c=c+1
+    if n==0:
+        print("Invalid input")
+    if c==0:
+        print("No repetitive elements")

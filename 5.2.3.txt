@@ -1,0 +1,8 @@
+a=int(input())
+c=[]
+b=0
+for i in range(0,a):
+    d=input()
+    l.append(d)
+    s=s+d
+    print("Sum",s)

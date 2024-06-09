@@ -1,0 +1,14 @@
+def l(a):
+    l=max(a)
+    return l
+    def s(a):
+        s=min(a)
+        return s
+        l=[]
+        n=int(input())
+        for i in range(0,n):
+            m=int(input())
+            l.append(m)
+            print(l)
+            print("largest number",l(a))
+            print("smaller number",s(a))

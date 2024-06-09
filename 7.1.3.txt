@@ -1,0 +1,9 @@
+def main():
+    a=input()
+    c=set()
+    for char in a:
+        if char!='.' and char not in c:
+            print(char,end='')
+            c.add(char)
+            if name=="main":
+                main()

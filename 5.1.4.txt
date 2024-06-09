@@ -1,0 +1,29 @@
+a=int(input())
+print("size",a)
+ar=[]
+print("array")
+for i in range(0,a):
+    b=int(input())
+    ar.append(b)
+    print(ar)
+    print("1.Insert a number")
+    print("2.Delete a number")
+    print("3.Exit")
+    choice=int(input())
+    if choice==1:
+        c=int(input())
+        for i in range(0,a):
+            if i==c:
+                del ar[i]
+                break
+            print("Deleted:",ar)
+            if choice==2:
+                c=int(input())
+                num=int(input())
+                for i in range(0,a):
+                    if i==c:
+                        ar[i]=num
+                        print(ar)
+                        if choice==3:
+                            print("exited")
+                            break

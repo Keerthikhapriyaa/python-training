@@ -1,0 +1,13 @@
+l=[]
+a=0
+b=int(input())
+c=int(input())
+for i in range(0,b):
+    d=int(input())
+    l.append(d)
+    for j in range(0,b):
+        if l[j]==k:
+            print(j)
+            a=a+1
+            if a==0:
+                print("Not Found")

@@ -1,0 +1,13 @@
+s1=input()
+s2=input()
+print("First",s1)
+print("Second",s2)
+a1=len(s1)
+a2=len(s2)
+print("length of string1:",a1)
+print("length of string2:",a2)
+c=s1+s2
+print("Concatenated string:",c)
+s=s1.upper()
+print("Uppercase:",s)
+print("alphabetically before secondfd string")

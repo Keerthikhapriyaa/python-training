@@ -1,0 +1,12 @@
+def main():
+    freq={}
+    b=input("Enter the string:")
+    for char in b:
+        if char in freq:
+            freq[char]+=1
+        else:
+            freq[char]=1
+            for char,count in freq.items():
+                print("{char}={count}")
+                if name=="main":
+                    main()

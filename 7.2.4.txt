@@ -1,0 +1,13 @@
+def find(s1,s2):
+    l_s1=list(s1)
+    l_s2=list(s2)
+    l_s1.sort()
+    l_s2.sort()
+    for i in range(len(s1)):
+        if l_s1[i]!=l_s2[i]:
+            return l_s2[i]
+    return l_s2[-1]
+    s1=input()
+    s2=input()
+    extra=find(s1,s2)
+    print("The extra character is",extra)

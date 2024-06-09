@@ -1,0 +1,20 @@
+a=int(input())
+b=int(input())
+l1=[]
+l2=[]
+count=0
+for i in range(0,a):
+    n=int(input())
+    l1.append(n)
+    print(l1)
+    for i in range(0,m):
+        m=int(input())
+        l2.append(m)
+        print(l2)
+        if a!=b:
+            print("Not equal")
+        for i in range(n):
+            if l1[i]!=l2[i]:
+                print("Not equal")
+            else:
+                print("Both array equal")
